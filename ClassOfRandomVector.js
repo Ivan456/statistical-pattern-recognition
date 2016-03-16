@@ -80,5 +80,6 @@
 	};
 
 	ClassOfRandomVector.prototype.normalDistribution = function() {
+
 		
 	};
