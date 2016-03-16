@@ -78,3 +78,7 @@
  		};		
  		ctx.stroke();  
 	};
+
+	ClassOfRandomVector.prototype.normalDistribution = function() {
+		
+	};
