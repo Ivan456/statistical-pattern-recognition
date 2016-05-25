@@ -14,7 +14,7 @@
 		massiveOfObjectsOfClass[i].drawRandomVectors();	
 	};
 
-	var w = [[0,1000000,1,1,1],[1,0,1,1,1],[1,1,0,1,1],[1,1,1,0,1],[1,1,1,1,0]];
+	var w = [[0,1,1,1,1],[1,0,1,1,1],[1,1,0,1,1],[1,1,1,0,1],[1,1,1,1,0]];
 	for (var i = 0; i < L; i += 1) {
 		massiveOfObjectsOfClass[i].recognition(massiveOfObjectsOfClass,w);
 		massiveOfObjectsOfClass[i].drawVectorsWithErrorClass();	
